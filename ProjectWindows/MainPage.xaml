@@ -7,9 +7,12 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <GridView Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Login Admin"></Button>
-        <Button Content="Campus"></Button>
+    <StackPanel>
+        <Button Content="News Feed" Width="160"></Button>
+        <Button Content="Opleidingen" Width="160"></Button>
+        <Button Content="Campus" Width="160"></Button>
+        <Button Content="Potentiële studenten" Width="160"></Button>
+        <Button Content="Admin login" Width="160"></Button>
 
-    </GridView>
+    </StackPanel>
 </Page>
