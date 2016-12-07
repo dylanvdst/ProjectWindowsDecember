@@ -45,7 +45,7 @@ namespace ProjectWindows
 
         private void Navigate_PotentiëleStudenten(object sender, RoutedEventArgs e)
         {
-            this.Frame.Navigate(typeof(PotentiëleStudenten), null);
+            this.Frame.Navigate(typeof(View.PotentiëleStudenten), null);
         }
 
         private void Navigate_AdminLogin(object sender, RoutedEventArgs e)
