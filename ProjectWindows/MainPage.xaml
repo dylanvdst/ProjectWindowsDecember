@@ -8,11 +8,11 @@
     mc:Ignorable="d">
 
     <StackPanel>
-        <Button Content="News Feed" Width="160"></Button>
-        <Button Content="Opleidingen" Width="160"></Button>
-        <Button Content="Campus" Width="160"></Button>
-        <Button Content="Potentiële studenten" Width="160"></Button>
-        <Button Content="Admin login" Width="160"></Button>
+        <Button Content="News Feed" Width="160" Click="Navigate_Newsfeed"></Button>
+        <Button Content="Opleidingen" Width="160" Click="Navigate_Opleidingen"></Button>
+        <Button Content="Campus" Width="160" Click="Navigate_Campus"></Button>
+        <Button Content="Potentiële studenten" Width="160" Click="Navigate_PotentiëleStudenten"></Button>
+        <Button Content="Admin login" Width="160" Click="Navigate_AdminLogin"></Button>
 
     </StackPanel>
 </Page>

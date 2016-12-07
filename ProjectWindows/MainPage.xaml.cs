@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
+
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
 namespace ProjectWindows
@@ -25,6 +26,31 @@ namespace ProjectWindows
         public MainPage()
         {
             this.InitializeComponent();
+        }
+
+        private void Navigate_Newsfeed(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(NewsFeed), null);
+        }
+
+        private void Navigate_Opleidingen(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Opleidingen), null);
+        }
+
+        private void Navigate_Campus(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Campus), null);
+        }
+
+        private void Navigate_PotentiëleStudenten(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(PotentiëleStudenten), null);
+        }
+
+        private void Navigate_AdminLogin(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(AdminLogin), null);
         }
     }
 }
