@@ -7,8 +7,47 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <StackPanel Orientation="Vertical" >
         <TextBlock Text="Potentiële studenten" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36"/>
-        <Button Content="Backt to mainpage" Width="160" Click="Navigate_Mainpage"></Button>
-    </Grid>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5,10,5,10" >
+            <TextBlock Text="Voornaam" Width="150" />
+            <TextBox Width="175" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5,10,5,10">
+            <TextBlock Text="naam" Width="150" />
+            <TextBox Width="175" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5,10,5,10">
+            <TextBlock Text="adres" Width="150" />
+            <TextBox Width="175" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5,10,5,10">
+            <TextBlock Text="email" Width="150" />
+            <TextBox Width="175" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5,10,5,10">
+            <TextBlock Text="telefoon" Width="150" />
+            <TextBox Width="175" />
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5,10,5,10">
+            <TextBlock Text="Voorkeur Opleiding" Width="150" />
+            <ComboBox Width="175">
+                <ComboBoxItem Content="Toegepaste Informatica"/>
+                <ComboBoxItem Content="Bedrijfsmanagement"/>
+                <ComboBoxItem Content="Office management"/>
+                <ComboBoxItem Content="Retail Management"/>
+            </ComboBox>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Margin="5,10,5,10">
+            <TextBlock Text="Voorkeur campus" Width="150" />
+            <ComboBox Width="175">
+                <ComboBoxItem Content="Schoonmeersen"/>
+                <ComboBoxItem Content="Mercator"/>
+                <ComboBoxItem Content="Ledeganck"/>
+            </ComboBox>
+        </StackPanel>
+        <Button Content="Registreer" Margin="0,50,0,25" Width="160" HorizontalAlignment="Center" Click="Navigate_Mainpage"/>
+
+        <Button Content="Backt to mainpage" Margin="0,50,0,25" Width="160" HorizontalAlignment="Center" Click="Navigate_Mainpage"/>
+    </StackPanel>
 </Page>
