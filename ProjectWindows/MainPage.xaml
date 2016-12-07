@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <StackPanel>
+        <TextBlock Text="Promo App" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36"/>
         <Button Content="News Feed" Width="160" Click="Navigate_Newsfeed"></Button>
         <Button Content="Opleidingen" Width="160" Click="Navigate_Opleidingen"></Button>
         <Button Content="Campus" Width="160" Click="Navigate_Campus"></Button>

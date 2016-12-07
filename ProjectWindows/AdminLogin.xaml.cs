@@ -30,5 +30,10 @@ namespace ProjectWindows
         {
             this.Frame.Navigate(typeof(MainPage), null);
         }
+
+        private void Navigate_Statistieken(object sender, RoutedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(Statistieken), null);
+        }
     }
 }

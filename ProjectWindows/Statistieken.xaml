@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Backt to mainpage" Width="160" Click="Navigate_Mainpage"></Button>
+        <TextBlock Text="Statistieken" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36"/>
+        <Button Content="Backt to mainpage" Width="160" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Navigate_Mainpage"></Button>
     </Grid>
 </Page>

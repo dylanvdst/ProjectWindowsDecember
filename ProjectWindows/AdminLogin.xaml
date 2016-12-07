@@ -7,7 +7,11 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <Button Content="Backt to mainpage" Width="160" Click="Navigate_Mainpage"></Button>
-    </Grid>
+    <StackPanel Orientation="Vertical">
+        <TextBlock Text="Admin login" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="36"/>
+        <TextBox Text="Username" Margin="5,100,5,10" HorizontalAlignment="Center" MinWidth="300"/>
+        <PasswordBox Margin="5,10,5,10" HorizontalAlignment="Center" MinWidth="300"/>
+        <Button Content="Login" Margin="5,10,5,10" Width="160" HorizontalAlignment="Center" Click="Navigate_Statistieken"/>
+        <Button Content="Backt to mainpage" Margin="0,50,0,25" Width="160" HorizontalAlignment="Center" Click="Navigate_Mainpage"/>
+    </StackPanel>
 </Page>
