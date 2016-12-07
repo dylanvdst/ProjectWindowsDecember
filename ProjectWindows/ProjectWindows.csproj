@@ -110,7 +110,7 @@
     <Compile Include="Model\Admin.cs" />
     <Compile Include="Model\Campus.cs" />
     <Compile Include="Model\Leerling.cs" />
-    <Compile Include="NewsFeed.xaml.cs">
+    <Compile Include="View\NewsFeed.xaml.cs">
       <DependentUpon>NewsFeed.xaml</DependentUpon>
     </Compile>
     <Compile Include="View\Opleidingen.xaml.cs">
@@ -172,14 +172,6 @@
     <Page Include="View\Statistieken.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="View\MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="View\MainPage.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

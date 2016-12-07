@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Web;
 
-namespace ProjectWindows.Model
+namespace WebApplication1.Models
 {
-    class Leerling
+    public class Leerling
     {
         public string Id { get; set; }
         public string Voornaam { get; set; }
